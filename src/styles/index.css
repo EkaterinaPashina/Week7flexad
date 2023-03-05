@@ -339,7 +339,7 @@ li {
 
 
 .line {
-    max-width: 1220px;
+    max-width: 980px;
     margin: 0 auto;
     display: block;
 }
@@ -384,12 +384,13 @@ li {
 .con31 {
     grid-row: 3/4;
     grid-column: 1/2;
-    margin-left: 370px;
 }
 
 .con3row {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 20px;
 }
 
 .con3heartp1 {
@@ -414,7 +415,6 @@ li {
 .con32 {
     grid-row: 3/4;
     grid-column: 1/2;
-    margin: 0 auto;
 }
 
 
@@ -440,7 +440,6 @@ li {
 .con33 {
     grid-row: 3/4;
     grid-column: 1/2;
-    margin-right: 75px;
 }
 
 .con3manp1 {
@@ -460,14 +459,13 @@ li {
     line-height: 36px;
     color: #211F54;
 
-    margin-right: 345px;
     margin-top: 0;
 }
 
 .cont3img {
     grid-row: 4/5;
     grid-column: 1/2;
-    max-width: 1012px;
+    max-width: 700px;
     display: block;
     width: 100%;
     margin: 0 auto;
@@ -519,6 +517,11 @@ li {
     margin: 40px 110px 40px 28px;
 }
 
+.con4line {
+    display: flex;
+    justify-content: space-around;
+}
+
 .buttoncont4:active {
     background-color: #211f54;
     color: #cbcddc;
@@ -532,7 +535,6 @@ li {
     border: 3px solid #EFF0F6;
     box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
     border-radius: 16px;
-    margin-left: 110px;
 }
 
 .con4ri1 img {
@@ -595,7 +597,6 @@ li {
     border: 3px solid #EFF0F6;
     box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
     border-radius: 16px;
-    margin-right: 110px;
 }
 
 .con4ri3 img {
