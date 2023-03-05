@@ -167,7 +167,7 @@ li {
     grid-column: 2/3;
 }
 
-.image img {
+.mainimage {
     width: 100%;
 }
 
@@ -745,7 +745,39 @@ li {
     color: #211F54;
 }
 
-@media screen and (max-width: 1023px;) {
+@media screen and (max-width: 1023px) {
+    .mainimage {
+        display: none;
+    }
 
+    .headernav {
+        margin: 0 auto;
+        padding-right: 40px;
+    }
+
+    .buttonheader{
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .cart {
+        display: none;
+}
+
+    .text {
+        grid-row: 2/3;
+        grid-column: 1/3;
+        margin: 0 auto;
+}
+
+    .text1 {
+        font-size: 4em;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 767px;) {
     
 }
