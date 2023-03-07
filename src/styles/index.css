@@ -57,6 +57,10 @@ li {
     color: #0075FF;
 }
 
+.menulogo {
+    display: none;
+}
+
 .buttonheader {
     margin-left: 30px;
     
@@ -935,5 +939,167 @@ li {
 
     .con5p1 {
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container2 {
+        height: 1500px;
+        max-width: 767px;
+        gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        margin: 50px auto;
+    }
+
+    .con2p1 {
+        font-size: 30px;
+    }
+    .con2p2 {
+        font-size: 19px;
+        max-width: 350px;
+    }
+    .con2p {
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+    .data {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .cards {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    .vacuum {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+
+    .buttonservice {
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .con3p {
+        font-size: 30px;
+        max-width: 365px;
+    }
+
+    .cont3img {
+        max-width: 350px;
+    }
+
+    .container3 {
+        grid-template-rows: 150px 150px 120px 270px;
+        height: 700px;
+        margin-top: 150px;
+    }
+
+    .container4 {
+        height: 1450px;
+    }
+
+    .con3p1 {
+        max-width: 360px;
+    }
+
+    .con3row img {
+        display: none;
+    }
+
+    .buttoncont4 {
+        display: none;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .headernav {
+        display: none;
+    }
+
+    .menulogo {
+        display: block;
+        height: 40px;
+    }
+
+    .call {
+        display: none;
+    }
+
+    .flex-column {
+        margin-left: 30px;
+    }
+
+    .container5 {
+        display: none;
+    }
+
+    .takealook {
+        font-size: 30px;
+        max-width: 365px;
+    }
+
+    .con4ri1 img {
+        padding-left: 33%;
+        padding-right: 0;
+    }
+
+    .con4ri2 img {
+        padding-left: 33%;
+        padding-right: 0;
+    }
+
+    .con4ri3 img{
+        padding-left: 33%;
+        padding-right: 0;
+    }
+
+    .buttonservice {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttontext1 {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .buttontext2 {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+
+    .text1 {
+        font-size: 3em;
+        margin-left: 20px;
+    }
+
+    .text2{
+        max-width: 340px;
+        margin-left: 20px;
+    }
+
+    .flex-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttontext {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .flex-column {
+        margin-left: 0;
     }
 }
